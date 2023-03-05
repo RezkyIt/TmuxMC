@@ -48,21 +48,23 @@ echo "Version Installed"
 echo "================="
 clear
 echo "================="
-echo "now you run server"
+echo "now you run server, ALERT: RAM 1GB and RAM 512MB recommended version 1.12.2-1.8.8 only"
 echo "================="
 read -p "Run Now Or Later? (run/later) " rl
 
 case $rl in 
-    run ) echo ok, Running!!;;	
+    run ) echo ok, exit!!;;	
     later ) echo exiting...;
         exit;;
     * ) echo invalid response;
         exit 1;;
 esac
 echo "====================="
-echo "Server Start"
+echo "Run server in ./runLOCAL.sh or ./runNGROK.sh"
 echo "Change Properties eula.txt,Edit False To True"
 echo "Enjoyyy:)... Created By RezkyMC:V"
 echo "Don't Recode My script This create 1,3 hours:)"
 echo "====================="
-java -Xms1G -Xmx1G -jar server.jar nogui
+echo "You ip Server in Wifii!!! Or internet"
+echo "you don't have internet You can join via localhost:25565"
+echo "
