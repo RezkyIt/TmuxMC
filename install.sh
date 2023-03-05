@@ -12,11 +12,12 @@ case $yn in
 esac
 echo "===Wait a moment...==="
 pkg upgrade && pkg update -y
+pkg install wget -y
 termux-setup-storage 
 cd /sdcard && mkdir TmuxMC
 cd TmuxMC
 clear
 echo "===Install Java 17==="
-pkg install openjdk-17-jdk -y
-
+pkg install openjdk-17 -y
+wget -O java17 https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-aarch64_bin.tar.gz
 
