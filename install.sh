@@ -10,13 +10,13 @@ case $yn in
     * ) echo invalid response;
         exit 1;;
 esac
-echo ===Wait a moment...===
+echo "===Wait a moment...==="
 pkg upgrade && pkg update -y
 termux-setup-storage 
 cd /sdcard && mkdir TmuxMC
 cd TmuxMC
 clear
-echo ===Install Java 17===
+echo "===Install Java 17==="
 pkg install openjdk-17-jdk -y
 
 
