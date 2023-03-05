@@ -61,5 +61,8 @@ case $rl in
 esac
 echo "====================="
 echo "Server Start"
+echo "Change Properties eula.txt,Edit False To True"
+echo "Enjoyyy:)... Created By RezkyMC:V"
+echo "Don't Recode My script This create 1,3 hours:)"
 echo "====================="
-java -jar server.jar 
+java -Xms1G -Xmx1G -jar server.jar nogui
