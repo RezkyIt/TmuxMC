@@ -20,4 +20,7 @@ clear
 echo "===Install Java 17==="
 pkg install openjdk-17 -y
 wget -O java17 https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-aarch64_bin.tar.gz
-
+echo "===Java 17 Installed==="
+clear
+echo "===Select Minecraft Server Version==="
+echo "===1.19.1/2(4-8GB-RAM)==="
