@@ -18,7 +18,8 @@ echo "======================"
 pkg upgrade && pkg update -y
 pkg install wget -y
 termux-setup-storage 
-cd /sdcard && mkdir TmuxMC
+cd /sdcard 
+mkdir TmuxMC
 cd TmuxMC
 clear
 echo "======================"
