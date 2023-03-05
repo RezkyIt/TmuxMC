@@ -67,4 +67,4 @@ echo "Don't Recode My script This create 1,3 hours:)"
 echo "====================="
 echo "You ip Server in Wifii!!! Or internet"
 echo "you don't have internet You can join via localhost:25565"
-echo "
+echo "subscribe RezkyMC
