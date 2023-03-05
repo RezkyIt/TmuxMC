@@ -41,4 +41,5 @@ echo "1.15.2 - https://api.papermc.io/v2/projects/paper/versions/1.15.2/builds/3
 echo "1.14.4 - https://api.papermc.io/v2/projects/paper/versions/1.14.4/builds/245/downloads/paper-1.14.4-245.jar"
 echo "1.12.2 - https://api.papermc.io/v2/projects/paper/versions/1.12.2/builds/1620/downloads/paper-1.12.2-1620.jar"
 echo "1.8.8 - https://api.papermc.io/v2/projects/paper/versions/1.8.8/builds/445/downloads/paper-1.8.8-445.jar"
-read -p "choose you Server Version: "
+read -p "choose you Server Version: " Version
+wget -O $Version
