@@ -25,7 +25,7 @@ echo "======================"
 echo "Install Java 17"
 echo "======================"
 pkg install openjdk-17 -y
-wget -O java17 https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-aarch64_bin.tar.gz
+wget -O java17 https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-aarch64_bin.tar.gz > /dev/null 2>&1
 echo "======================"
 echo "Java 17 Installed"
 echo "======================"
